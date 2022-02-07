@@ -1,0 +1,22 @@
+.menuTabWrap {
+  margin: 50px 10px;
+  padding: 10px 30px;
+  border: 2px solid lightgray;
+  border-radius: 30px;
+
+  .menuWrap {
+    display: flex;
+    text-align: center;
+
+    .menuTap {
+      margin-right: 10px;
+      width: 50px;
+      border: 1px solid black;
+      cursor: pointer;
+    }
+
+    .result {
+      margin-left: 100px;
+    }
+  }
+}
