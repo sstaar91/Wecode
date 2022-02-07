@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import { Main } from './Main';
-import { First } from './Pages/first/First';
-import { Second } from './Pages/second/Second';
+import { First } from './pages/first/First';
+import { Second } from './pages/second/Second';
 
 export function Router() {
   return (
