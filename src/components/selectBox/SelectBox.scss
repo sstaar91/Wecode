@@ -1,0 +1,17 @@
+.selectWrap {
+  margin: 50px 10px;
+  padding: 10px 30px;
+  border: 2px solid lightgray;
+  border-radius: 30px;
+
+  .selectDiv {
+    margin-right: 20px;
+  }
+
+  .selectResult {
+    display: inline;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+}

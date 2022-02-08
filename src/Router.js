@@ -5,7 +5,6 @@ import { Main } from './Main';
 import { First } from './pages/first/First';
 import { Second } from './pages/second/Second';
 
-
 export function Router() {
   return (
     <BrowserRouter>
