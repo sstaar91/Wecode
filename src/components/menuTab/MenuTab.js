@@ -4,7 +4,7 @@ import './MenuTab.scss';
 
 export const MenuTab = () => {
   const [navBar, setNavBar] = useState({
-    one: false,
+    one: true,
     two: false,
     three: false,
   });
