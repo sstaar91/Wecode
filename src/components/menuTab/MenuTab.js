@@ -1,18 +1,10 @@
 import React, { useState } from 'react';
+import { MenuDiv } from './MenuDiv';
 
 import './MenuTab.scss';
 
 export const MenuTab = () => {
-  const [navBar, setNavBar] = useState({
-<<<<<<< HEAD
-    one: true,
-=======
-    one: false,
->>>>>>> main
-    two: false,
-    three: false,
-  });
-
+  const [navBar, setNavBar] = useState({});
   const [navContents, setNavContents] = useState('');
 
   const mouseOn = e => {
@@ -32,31 +24,21 @@ export const MenuTab = () => {
       <div>
         <h2>메뉴 탭 hover에 따른 boolean 값 구현</h2>
         <div className="menuWrap">
-          <div
-            onMouseEnter={mouseOn}
-            onMouseLeave={mouseOver}
-            className="menuTap"
-          >
-            one
-          </div>
-          <div
-            onMouseEnter={mouseOn}
-            onMouseLeave={mouseOver}
-            className="menuTap"
-          >
-            two
-          </div>
-          <div
-            onMouseEnter={mouseOn}
-            onMouseLeave={mouseOver}
-            className="menuTap"
-            s
-          >
-            three
-          </div>
+          {DIV_NAME.map(list => {
+            return (
+              <MenuDiv
+                key={list}
+                mouseOn={mouseOn}
+                mouseOver={mouseOver}
+                title={list}
+              />
+            );
+          })}
           <div className="result">result : {navContents}</div>
         </div>
       </div>
     </article>
   );
 };
+
+const DIV_NAME = ['one', 'two', 'three', 'four'];
