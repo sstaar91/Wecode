@@ -1,0 +1,16 @@
+.mainSlider {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 100px;
+  border: 1px solid red;
+  overflow: hidden;
+}
+
+.slide {
+  min-width: 100%;
+  height: 100px;
+  border: 1px solid blue;
+  transition: 0.5s;
+}
