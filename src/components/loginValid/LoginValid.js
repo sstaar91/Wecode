@@ -7,28 +7,11 @@ export const LoginValid = () => {
     passoword: '',
     username: '',
   });
-
-  const [booleanData, setBooleanData] = useState({
-    id: false,
-    passoword: false,
-    username: false,
-  });
+  const dataValid = loginData.id && loginData.passoword && loginData.username;
 
   const check = () => {
-    if (booleanData.id && booleanData.passoword && booleanData.username) {
-      alert('굿');
-    } else {
-      alert('다시');
-    }
+    dataValid ? alert('굿') : alert('다시');
   };
-
-  const idValid = loginData.id.length >= 4;
-  const pwValid = loginData.passoword.length >= 4;
-  const nameValid = loginData.username.length >= 4;
-
-  const dataValid = idValid && pwValid && nameValid;
-
-  console.log(idValid);
 
   return (
     <div>
@@ -40,12 +23,10 @@ export const LoginValid = () => {
             type={data.type}
             name={data.name}
             setLoginData={setLoginData}
-            setBooleanData={setBooleanData}
-            dataValid={dataValid}
           />
         );
       })}
-      <button onClick={idValid && check}>로그인</button>
+      <button onClick={dataValid ? check : null}>로그인</button>
     </div>
   );
 };
