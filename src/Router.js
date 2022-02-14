@@ -3,7 +3,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import { Main } from './Main';
 import { First } from './pages/first/First';
-import { Second } from './pages/second/Second';
 
 export function Router() {
   return (
@@ -11,7 +10,6 @@ export function Router() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/first" element={<First />} />
-        <Route path="/second" element={<Second />} />
       </Routes>
     </BrowserRouter>
   );
