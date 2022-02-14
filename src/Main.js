@@ -13,9 +13,6 @@ export const Main = () => {
       <button name="first" onClick={goToPage}>
         1차
       </button>
-      <button name="second" onClick={goToPage}>
-        2차
-      </button>
     </div>
   );
 };
