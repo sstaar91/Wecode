@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react/cjs/react.development';
+import './LoginInput.scss';
 
 export const LoginInput = ({ type, name, setLoginData }) => {
   const [msg, setMsg] = useState(false);
@@ -12,6 +13,7 @@ export const LoginInput = ({ type, name, setLoginData }) => {
 
   return (
     <div>
+      <span className="inputTitle">{name}</span>
       <input type={type} name={name} onChange={changeData} />
       {msg ? <span>통과</span> : null}
     </div>

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { LoginInput } from './LoginInput';
+import './LoginValid.scss';
 
 export const LoginValid = () => {
   const [loginData, setLoginData] = useState({
@@ -14,20 +15,24 @@ export const LoginValid = () => {
   };
 
   return (
-    <div>
-      <span>로그인 유효성 검사</span>
-      {INPUT_DATA.map(data => {
-        return (
-          <LoginInput
-            key={data.id}
-            type={data.type}
-            name={data.name}
-            setLoginData={setLoginData}
-          />
-        );
-      })}
-      <button onClick={dataValid ? check : null}>로그인</button>
-    </div>
+    <article className="validWrap">
+      <div>
+        <h2>로그인 유효성 검사</h2>
+        <div className="validInput">
+          {INPUT_DATA.map(data => {
+            return (
+              <LoginInput
+                key={data.id}
+                type={data.type}
+                name={data.name}
+                setLoginData={setLoginData}
+              />
+            );
+          })}
+          <button onClick={dataValid ? check : null}>로그인</button>
+        </div>
+      </div>
+    </article>
   );
 };
 
