@@ -3,6 +3,7 @@ import { MenuTab } from '../../components/menuTab/MenuTab';
 import { SelectBox } from '../../components/selectBox/SelectBox';
 import { ImgSlide } from '../../components/imgSlide/ImgSlide';
 import { LoginValid } from '../../components/loginValid/LoginValid';
+import { FileUpLoad } from '../../components/fileUpLoad/FileUpLoad';
 
 export const First = () => {
   return (
@@ -12,6 +13,7 @@ export const First = () => {
       <SelectBox />
       <ImgSlide />
       <LoginValid />
+      <FileUpLoad />
     </section>
   );
 };

@@ -14,6 +14,9 @@ export const ImgSlide = () => {
   };
 
   return (
+    // <article className="silderWrap">
+    //   <div>
+    //     <h2>이미지 슬라이드 구현</h2>
     <>
       <div className="mainSlider">
         {sliderArr.map((item, index) => {
@@ -35,5 +38,7 @@ export const ImgSlide = () => {
         right
       </button>
     </>
+    //   </div>
+    // </article>
   );
 };
