@@ -1,16 +1,15 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Main from './pages/Main';
 
-import { Main } from './Main';
-import { First } from './Pages/First/First';
-
-export function Router() {
+const Router = () => {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/first" element={<First />} />
       </Routes>
     </BrowserRouter>
   );
-}
+};
+
+export default Router;

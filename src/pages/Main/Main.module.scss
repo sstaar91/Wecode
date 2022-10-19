@@ -1,0 +1,13 @@
+@import '../../styles';
+
+.main {
+  @include flexCenter;
+  height: 100vh;
+  background-color: black;
+}
+
+.title {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+}
