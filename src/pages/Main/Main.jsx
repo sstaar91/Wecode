@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import css from './Main.module.scss';
 
 const Main = () => {
@@ -6,7 +7,9 @@ const Main = () => {
     <article className={css.main}>
       <h1 className={css.title}>Scss Function Archive</h1>
       <section className={css.container}>
-        <div className={css.card}>Login</div>
+        <Link to="/login" className={css.card}>
+          Login
+        </Link>
       </section>
     </article>
   );

@@ -1,1 +1,33 @@
+@import '../../styles';
 
+.container {
+  @include flexCenter;
+  height: 100vh;
+  margin-top: 50px;
+}
+
+.box {
+  @include flexCenter;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(100, 100, 100, 0.5);
+}
+
+.title {
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.inputWrap {
+  @include flexCenter;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.inputTitle {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+}
