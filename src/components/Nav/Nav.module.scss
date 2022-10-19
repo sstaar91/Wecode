@@ -1,0 +1,17 @@
+@import '../../styles/';
+
+.nav {
+  @include flexCenter;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 30px;
+  padding-top: 30px;
+}
+
+.homeBtn {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  cursor: pointer;
+}

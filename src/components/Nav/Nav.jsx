@@ -1,10 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import css from './Nav.module.scss';
 
 const Nav = () => {
   return (
-    <div>
-      <span />
-    </div>
+    <section className={css.nav}>
+      <Link to="/" className={css.homeBtn}>
+        HOME
+      </Link>
+    </section>
   );
 };
 
