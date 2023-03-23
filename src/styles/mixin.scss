@@ -3,3 +3,9 @@
   align-items: center;
   justify-content: center;
 }
+
+@mixin flex($content, $align: center) {
+  display: flex;
+  align-items: $align;
+  justify-content: $content;
+}

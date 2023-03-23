@@ -48,6 +48,7 @@ const SearchBar = () => {
       <input
         className={inputStyle}
         maxLength={60}
+        placeholder="지역 검색"
         onClick={e => {
           e.stopPropagation();
         }}

@@ -1,0 +1,16 @@
+@import '../../../../styles';
+
+.container {
+  width: 100%;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  color: $theme-red;
+  margin: 40px 80px;
+}
+
+.carouselBox {
+  @include flexCenter;
+}
