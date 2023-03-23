@@ -1,0 +1,40 @@
+@import '../../styles';
+
+.container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: 40%;
+  height: 40px;
+  padding: 10px 20px;
+  border: 2px solid $theme-red;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.seacrhIcon {
+  width: 20px;
+  opacity: 0.4;
+}
+
+.input {
+  width: 80%;
+  height: 30px;
+  margin-left: 20px;
+  border: none;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.button {
+  position: absolute;
+  right: 0;
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: $theme-red;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}

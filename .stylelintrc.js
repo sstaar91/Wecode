@@ -11,7 +11,6 @@ module.exports = {
   rules: {
     'at-rule-no-unknown': null, // scss를 사용하기 때문에 css영역에선 null로 처리합니다.
     'keyframes-name-pattern': /^([a-z][a-z0-9]*)(-[a-z0-9]+)*$/, // Team내 컨벤션으로 수정 (현재 kebab-case)
-    'max-nesting-depth': 3, // 최대 nesting은 3depth 까지
     'no-descending-specificity': null,
     'string-quotes': 'single', // single quotes
     'scss/at-rule-conditional-no-parentheses': null, // 조건부 @ 규칙(if, elsif, while)(자동 수정 가능)에서 괄호를 허용합니다.

@@ -1,17 +1,21 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import SearchBar from '../../components/SearchBar';
 import css from './Main.module.scss';
 
 const Main = () => {
   return (
-    <article className={css.main}>
-      <h1 className={css.title}>Scss Function Archive</h1>
-      <section className={css.container}>
-        <Link to="/login" className={css.card}>
-          Login
-        </Link>
-      </section>
-    </article>
+    <section className={css.container}>
+      {/* <SearchFocus modalActive={isSearchModalActive} /> */}
+      <div className={css.banner}>
+        <h2>강한 사장님만 살아남는 이 곳!</h2>
+        <h2>탱크플레이스</h2>
+        <SearchBar />
+      </div>
+      <article>
+        {/* <ShopListContainer /> */}
+        {/* <EatDealContainer /> */}
+      </article>
+    </section>
   );
 };
 

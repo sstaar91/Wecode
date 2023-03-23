@@ -1,7 +1,2 @@
-@mixin flexCenter {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-$theme-scss: #c6538c;
+@import './variables';
+@import './mixin';
