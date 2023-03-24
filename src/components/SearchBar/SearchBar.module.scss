@@ -7,7 +7,7 @@
   height: 40px;
   padding-left: 40px;
   transition: all 0.5s ease-in-out;
-  border: 2px solid $theme-red;
+  border: 2px solid $theme-main;
   border-radius: 20px;
   background-color: white;
 }
@@ -23,10 +23,10 @@
 
 .seacrhIcon {
   position: absolute;
+  z-index: 3;
   left: 10px;
   width: 20px;
   opacity: 0.4;
-  z-index: 3;
 }
 
 .input {
@@ -36,7 +36,7 @@
   border: none;
   font-size: 15px;
   text-align: center;
-  caret-color: $theme-red;
+  caret-color: $theme-main;
 
   &:focus {
     outline: none;
@@ -48,18 +48,18 @@
   right: 0;
   padding: 10px 30px;
   border-radius: 20px;
-  background-color: $theme-red;
+  background-color: $theme-main;
   color: white;
   font-size: 15px;
   font-weight: 700;
 }
 
 .active {
-  opacity: 1;
   transition: all 0.5s ease-in-out;
+  opacity: 1;
 }
 
 .hidden {
-  opacity: 0;
   transition: all 0.3s ease-in-out;
+  opacity: 0;
 }
