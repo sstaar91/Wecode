@@ -3,62 +3,74 @@
     {
       "id": 1,
       "title": "혜화역 노포 느낌의 닭갈비 맛집!",
-      "location": "서울 종로구"
+      "location": "서울 종로구",
+      "img": "chicken"
     },
     {
       "id": 2,
-      "title": "마포역 맛집 베스트 40곳",
-      "location": ""
+      "title": "5성급 호텔 주방장이 굽는 스테이크!",
+      "location": "서울 중랑구",
+      "img": "grilled"
     },
     {
       "id": 3,
-      "title": "마포역 맛집 베스트 40곳",
-      "location": ""
+      "title": "아이맥스 보다가 생각날 맛집!",
+      "location": "서울 용산구",
+      "img": "meat"
     },
     {
       "id": 4,
-      "title": "마포역 맛집 베스트 40곳",
-      "location": ""
+      "title": "마형사가 칭찬한 양꼬치 맛집",
+      "location": "서울 구로구",
+      "img": "bbq"
     },
     {
       "id": 5,
-      "title": "마포역 맛집 베스트 40곳",
-      "location": ""
+      "title": "김달걀이 추천하는 단백질 맛집",
+      "location": "서울 마포구",
+      "img": "grilled"
     },
     {
       "id": 6,
-      "title": "마포역 맛집 베스트 40곳",
-      "location": ""
+      "title": "주방장이 3대 500치는 집",
+      "location": "서울 강서구",
+      "img": "chicken"
     },
     {
       "id": 7,
-      "title": "마포역 맛집 베스트 40곳",
-      "location": ""
+      "title": "한 꼬치에 단백질 24g인 집",
+      "location": "서울 중구",
+      "img": "bbq"
     },
     {
       "id": 8,
-      "title": "마포역 맛집 베스트 40곳",
-      "location": ""
+      "title": "겉바속촉 장인이 30년 근무한 집",
+      "location": "서울 노원구",
+      "img": "meat"
     },
     {
       "id": 9,
-      "title": "마포역 맛집 베스트 40곳",
-      "location": ""
+      "title": "하루에 딱 30마리만 파는 치킨집",
+      "location": "서울 관악구",
+      "img": "chicken"
     },
     {
       "id": 10,
-      "title": "마포역 맛집 베스트 40곳",
-      "location": ""
+      "title": "직장인 최애 맥주 안주집",
+      "location": "서울 영등포구",
+      "img": "grilled"
     },
     {
       "id": 11,
-      "title": "마포역 맛집 베스트 40곳",
-      "location": ""
+      "title": "고기와 지방의 조화가 900g인 집",
+      "location": "서울 송파구",
+      "img": "meat"
     },
     {
       "id": 12,
-      "title": "마포역 맛집 베스트 40곳",
-      "location": ""
+      "title": "일산 가기전 마지막 꼬치집",
+      "location": "서울 은평구",
+      "img": "bbq"
     }
   ]
 }

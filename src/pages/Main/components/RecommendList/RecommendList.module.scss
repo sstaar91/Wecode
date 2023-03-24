@@ -5,12 +5,55 @@
 }
 
 .title {
+  margin: 40px 80px;
+  color: $theme-main;
   font-size: 30px;
   font-weight: 700;
-  color: $theme-red;
-  margin: 40px 80px;
 }
 
 .carouselBox {
   @include flexCenter;
+  padding: 0 150px;
+}
+
+.cardBox {
+  height: 250px;
+  padding: 10px;
+}
+
+.card {
+  @include flexCenter;
+  flex-direction: column;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.cardTitle {
+  width: 90%;
+  padding: 8px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: $theme-white;
+  font-size: 21px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.subTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin-top: 5px;
+  padding: 5px 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: $theme-white;
+  font-size: 15px;
+  font-weight: 700;
+  word-wrap: break-word;
+  gap: 5px;
+}
+
+.location {
+  width: 15px;
 }

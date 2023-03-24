@@ -1,0 +1,23 @@
+@import '../../styles';
+
+.loading {
+  @include flexCenter;
+  height: 100%;
+}
+
+.infinity {
+  width: 80px;
+  animation: infinity-Rotate 1.5s linear infinite;
+}
+
+@keyframes infinity-Rotate {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
