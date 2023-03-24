@@ -1,0 +1,62 @@
+@import '../../../styles';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  border: 3px solid $theme-main;
+  border-radius: 10px;
+  background-color: white;
+  gap: 20px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.input {
+  width: 200px;
+  border: none;
+  padding: 10px 5px;
+  border-bottom: 2px solid $theme-main;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.loginBtn {
+  margin-top: 10px;
+  width: 100%;
+  background-color: $theme-main;
+  padding: 10px 5px;
+  border-radius: 10px;
+  opacity: 0.5;
+  transition: all ease-in-out 0.2s;
+  color: white;
+  font-weight: 500;
+
+  &:hover {
+    opacity: 1;
+    transition: all ease-in-out 0.2s;
+  }
+}
+
+.signupBtn {
+  width: 100%;
+  background-color: $theme-disabled;
+  padding: 10px 5px;
+  border-radius: 10px;
+  transition: all ease-in-out 0.2s;
+  border: 2px solid white;
+  font-weight: 500;
+
+  &:hover {
+    border: 2px solid $theme-main;
+    transition: all ease-in-out 0.2s;
+  }
+}
