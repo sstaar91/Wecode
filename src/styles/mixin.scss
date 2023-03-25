@@ -7,8 +7,13 @@
   justify-content: center;
 }
 
-@mixin flex($content, $align: center) {
+@mixin flexSelect($content, $align: center) {
   display: flex;
-  align-items: $align;
   justify-content: $content;
+  align-items: $align;
+}
+
+@mixin fontSelect($size, $weight) {
+  font-size: $size;
+  font-weight: $weight;
 }

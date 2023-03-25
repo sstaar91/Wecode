@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import Loading from '../../components/Loading';
 import useGetFetch from '../../hooks/useGetFetch';
 import ShopCard from './ShopCard/ShopCard';
+import Icon from '../../components/Icon';
 import css from './List.module.scss';
 
 const List = () => {
@@ -18,11 +19,7 @@ const List = () => {
       <div className={css.titleWrap}>
         <span className={css.title}>{title}</span>
         <span className={css.subTitle}>
-          <img
-            src="/images/icons/location.png"
-            alt="location"
-            className={css.location}
-          />
+          <Icon icon="faLocationDot" color="white" />
           {location}
         </span>
       </div>

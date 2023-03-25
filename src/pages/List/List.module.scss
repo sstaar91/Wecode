@@ -25,7 +25,8 @@
   font-family: 'Gaegu', cursive;
   color: white;
   border-radius: 15px;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: $theme-shadow;
+  gap: 10px;
 }
 
 .location {

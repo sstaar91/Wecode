@@ -3,13 +3,14 @@ import { useNavigate } from 'react-router-dom';
 import Carousel from '../../../components/Carousel';
 import useGetFetch from '../../../hooks/useGetFetch';
 import Loading from '../../../components/Loading';
+import Icon from '../../../components/Icon';
 import Arrow from '../../../components/Arrow/Arrow';
 import css from './ShopList.module.scss';
 import './carouselStyle.scss';
 
 const ShopList = ({ categoryTitle, url }) => {
   const navigate = useNavigate();
-  const { data, loading, error } = useGetFetch(`/data/Main/${url}.json`);
+  const { data, loading } = useGetFetch(`/data/Main/${url}.json`);
 
   const setting = {
     infinite: true,
@@ -48,11 +49,7 @@ const ShopList = ({ categoryTitle, url }) => {
                     <span className={css.cardTitle}>{title}</span>
                     {location && (
                       <span className={css.subTitle}>
-                        <img
-                          src="/images/icons/location.png"
-                          alt="location"
-                          className={css.location}
-                        />
+                        <Icon icon="faLocationDot" color="white" />
                         {location}
                       </span>
                     )}

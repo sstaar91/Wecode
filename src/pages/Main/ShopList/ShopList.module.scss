@@ -5,10 +5,9 @@
 }
 
 .title {
+  @include fontSelect(30px, 700);
   margin: 40px 80px;
   color: $theme-main;
-  font-size: 30px;
-  font-weight: 700;
 }
 
 .carouselBox {
@@ -35,35 +34,27 @@
   &:hover {
     transition: all 0.2s ease-in-out;
     transform: translate(-2px, -5px);
-    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 10px 5px $theme-shadow;
   }
 }
 
 .cardTitle {
+  @include fontSelect(21px, 900);
   width: 90%;
   padding: 8px 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: $theme-shadow;
   color: $theme-white;
-  font-size: 21px;
-  font-weight: 900;
   text-align: center;
 }
 
 .subTitle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flexCenter;
+  @include fontSelect(15px, 700);
   width: fit-content;
   margin-top: 5px;
   padding: 5px 15px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: $theme-shadow;
   color: $theme-white;
-  font-size: 15px;
-  font-weight: 700;
   word-wrap: break-word;
-  gap: 5px;
-}
-
-.location {
-  width: 15px;
+  gap: 10px;
 }

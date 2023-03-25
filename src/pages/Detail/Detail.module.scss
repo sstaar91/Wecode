@@ -1,0 +1,187 @@
+@import '../../styles';
+
+.infoContainer {
+  @include flexSelect(space-between, flex-start);
+  margin-top: 70px;
+  padding: 70px;
+}
+
+.shopImg {
+  width: 45%;
+}
+
+.infoBox {
+  padding-top: 30px;
+  width: 50%;
+
+  & > div {
+    margin: 30px 0;
+  }
+}
+
+.title {
+  @include fontSelect(70px, 400);
+  display: inline-block;
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+.recommand {
+  @include fontSelect(25px, 400);
+  margin-left: 50px;
+
+  & > svg {
+    margin-right: 10px;
+  }
+}
+
+.infoWrap {
+  @include fontSelect(20px, 400);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  & > span > svg {
+    margin-right: 10px;
+  }
+}
+
+.menuBox {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 15px 20px;
+  padding-top: 30px;
+  border: 3px solid $theme-main;
+  border-radius: 20px;
+}
+
+.menuText {
+  @include fontSelect(20px, 700);
+  position: absolute;
+  top: -15px;
+  left: 30px;
+  width: fit-content;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 10px;
+  background-color: $theme-main;
+}
+
+.menuCard {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  cursor: default;
+}
+
+.pick {
+  @include fontSelect(20px, 400);
+  display: inline-block;
+  width: 40px;
+  margin-right: 10px;
+  font-family: 'Gaegu', cursive;
+  color: $theme-main;
+}
+
+.menuTitle {
+  @include fontSelect(25px, 400);
+  font-family: 'Black Han Sans', sans-serif;
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 200px;
+  flex: 3;
+}
+
+.menuinfo {
+  @include fontSelect(18px, 700);
+  flex: 2;
+}
+
+.reserveBox {
+  @include flexSelect(space-around);
+}
+
+.button {
+  @include fontSelect(18px, 700);
+  width: 28%;
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  opacity: 0.4;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+.order {
+  background-color: $theme-eatDeal;
+}
+
+.packing {
+  background-color: $theme-disabled;
+  color: black;
+}
+
+.reserve {
+  background-color: $theme-main;
+}
+
+.reviewContainer {
+  padding: 30px 70px;
+}
+
+.sortBtn {
+  margin-left: 20px;
+  padding: 5px 15px;
+  border: 2px solid $theme-main;
+  border-radius: 10px;
+  background-color: white;
+  font-weight: 700;
+}
+
+.reviewBox {
+  @include flexCenter;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.reviewCard {
+  display: flex;
+  gap: 20px;
+  width: 80%;
+
+  & > svg {
+    padding: 10px;
+    border: 3px solid $theme-main;
+    border-radius: 100%;
+  }
+}
+
+.userId {
+  font-size: 25px;
+  font-weight: 700;
+  color: $theme-main;
+}
+
+.rating {
+  margin-left: 15px;
+
+  & > svg {
+    margin-right: 5px;
+  }
+}
+
+.create {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.description {
+  margin-top: 10px;
+  line-height: 1.5;
+}
