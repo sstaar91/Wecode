@@ -97,7 +97,7 @@
   flex: 2;
 }
 
-.reserveBox {
+.buttonBox {
   @include flexSelect(space-around);
 }
 
@@ -117,16 +117,15 @@
   }
 }
 
-.order {
+.eatDeal {
   background-color: $theme-eatDeal;
 }
 
-.packing {
-  background-color: $theme-disabled;
-  color: black;
+.black {
+  background-color: $theme-black;
 }
 
-.reserve {
+.main {
   background-color: $theme-main;
 }
 
@@ -146,8 +145,49 @@
 .reviewBox {
   @include flexCenter;
   flex-direction: column;
-  margin-top: 30px;
   gap: 30px;
+  padding-top: 30px;
+}
+
+.reviewForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 60%;
+  padding: 15px;
+  margin: 50px 0;
+  border: 1px solid $theme-main;
+  border-radius: 20px;
+}
+
+.reviewArea {
+  margin-top: 20px;
+  padding: 10px 20px;
+  height: 100px;
+  border: 1px solid $theme-disabled;
+  border-radius: 20px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.ratingForm {
+  @include flexCenter;
+  gap: 10px;
+}
+
+.ratingImg {
+  width: 40px;
+  border-radius: 100%;
+  filter: grayscale(100%);
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.check {
+  filter: grayscale(0%);
+  opacity: 1;
 }
 
 .reviewCard {
