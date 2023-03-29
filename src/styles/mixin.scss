@@ -9,8 +9,8 @@
 
 @mixin flexSelect($content, $align: center) {
   display: flex;
-  justify-content: $content;
   align-items: $align;
+  justify-content: $content;
 }
 
 @mixin fontSelect($size, $weight) {

@@ -11,8 +11,8 @@
 }
 
 .infoBox {
-  padding-top: 30px;
   width: 50%;
+  padding-top: 30px;
 
   & > div {
     margin: 30px 0;
@@ -46,8 +46,8 @@
 
 .menuBox {
   display: flex;
-  flex-direction: column;
   position: relative;
+  flex-direction: column;
   padding: 15px 20px;
   padding-top: 30px;
   border: 3px solid $theme-main;
@@ -62,9 +62,9 @@
   width: fit-content;
   margin-bottom: 20px;
   padding: 5px 10px;
-  color: white;
   border-radius: 10px;
   background-color: $theme-main;
+  color: white;
 }
 
 .menuCard {
@@ -79,17 +79,17 @@
   display: inline-block;
   width: 40px;
   margin-right: 10px;
-  font-family: 'Gaegu', cursive;
   color: $theme-main;
+  font-family: 'Gaegu', cursive;
 }
 
 .menuTitle {
   @include fontSelect(25px, 400);
-  font-family: 'Black Han Sans', sans-serif;
-  margin-bottom: 10px;
   display: inline-block;
-  width: 200px;
   flex: 3;
+  width: 200px;
+  margin-bottom: 10px;
+  font-family: 'Black Han Sans', sans-serif;
 }
 
 .menuinfo {
@@ -105,15 +105,15 @@
   @include fontSelect(18px, 700);
   width: 28%;
   padding: 20px;
+  transition: all 0.3s ease-in-out;
   border: none;
   border-radius: 20px;
-  color: white;
   opacity: 0.4;
-  transition: all 0.3s ease-in-out;
+  color: white;
 
   &:hover {
-    opacity: 1;
     transition: all 0.3s ease-in-out;
+    opacity: 1;
   }
 }
 
@@ -127,101 +127,4 @@
 
 .main {
   background-color: $theme-main;
-}
-
-.reviewContainer {
-  padding: 30px 70px;
-}
-
-.sortBtn {
-  margin-left: 20px;
-  padding: 5px 15px;
-  border: 2px solid $theme-main;
-  border-radius: 10px;
-  background-color: white;
-  font-weight: 700;
-}
-
-.reviewBox {
-  @include flexCenter;
-  flex-direction: column;
-  gap: 30px;
-  padding-top: 30px;
-}
-
-.reviewForm {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  width: 60%;
-  padding: 15px;
-  margin: 50px 0;
-  border: 1px solid $theme-main;
-  border-radius: 20px;
-}
-
-.reviewArea {
-  margin-top: 20px;
-  padding: 10px 20px;
-  height: 100px;
-  border: 1px solid $theme-disabled;
-  border-radius: 20px;
-
-  &:focus {
-    outline: none;
-  }
-}
-
-.ratingForm {
-  @include flexCenter;
-  gap: 10px;
-}
-
-.ratingImg {
-  width: 40px;
-  border-radius: 100%;
-  filter: grayscale(100%);
-  opacity: 0.5;
-  cursor: pointer;
-}
-
-.check {
-  filter: grayscale(0%);
-  opacity: 1;
-}
-
-.reviewCard {
-  display: flex;
-  gap: 20px;
-  width: 80%;
-
-  & > svg {
-    padding: 10px;
-    border: 3px solid $theme-main;
-    border-radius: 100%;
-  }
-}
-
-.userId {
-  font-size: 25px;
-  font-weight: 700;
-  color: $theme-main;
-}
-
-.rating {
-  margin-left: 15px;
-
-  & > svg {
-    margin-right: 5px;
-  }
-}
-
-.create {
-  display: inline-block;
-  margin-left: 15px;
-}
-
-.description {
-  margin-top: 10px;
-  line-height: 1.5;
 }

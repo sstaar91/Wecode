@@ -1,0 +1,49 @@
+@import '../../styles';
+
+.container {
+  margin-top: 70px;
+  padding: 30px 0 50px;
+  background-color: $theme-darkGray;
+}
+
+.box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.logoWrap {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.logo {
+  width: 120px;
+}
+
+.description {
+  @include fontSelect(23px, 700);
+  display: flex;
+  align-items: center;
+  color: $theme-footerText;
+  font-family: 'Gaegu', cursive;
+
+  &:before {
+    content: '';
+    display: block;
+    width: 2px;
+    height: 40px;
+    margin: 0 30px 0 0;
+    background-color: $theme-footerText;
+  }
+}
+
+.infoWrap {
+  color: $theme-footerText;
+  line-height: 30px;
+
+  & > h3 {
+    cursor: pointer;
+  }
+}

@@ -4,6 +4,7 @@ import Nav from './components/Nav';
 import Main from './pages/Main';
 import List from './pages/List';
 import Detail from './pages/Detail';
+import Footer from './components/Footer';
 
 const Router = () => {
   return (
@@ -15,6 +16,7 @@ const Router = () => {
         <Route path="/list/:id" element={<List />} />
         <Route path="/detail/:id" element={<Detail />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };
