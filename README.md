@@ -3,7 +3,8 @@
 ## 개요
 
 Wecode 기간 진행했던 첫번째 Project에 대한 Develop Project입니다.<br/>
-frontend 혼자서 구현한 내용이기에, 대부분의 데이터 통신은 mock Data로 이루어져있습니다.
+frontend 혼자서 구현한 내용이기에, 대부분의 데이터 통신은 mock Data로 이루어져있습니다.<br/>
+차후 백엔드 API 구현 후 통신까지 풀스택으로 진행할 예정입니다.
 
 ## 사용 스택
 
