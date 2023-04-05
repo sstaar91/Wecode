@@ -23,11 +23,12 @@ frontend 혼자서 구현한 내용이기에, 대부분의 데이터 통신은 m
 ## 기능 목록
 <details>
 <summary>Ver 1.0.0</summary>
+  - 기간 : 
 </details>
 
 ## 이전 Project Info
 
-- [wecode 1차 프로젝트 - 탱고플레이트](https://github.com/wecode-bootcamp-korea/23-1st-TangoPlate-frontend)
-- [wecode 1차 프로젝트 - 회고록 블로그 링크]()
+- [wecode 1차 프로젝트 - 프로젝트 개요](https://bluemind917.tistory.com/253)
+- [wecode 1차 프로젝트 - 회고록 블로그 링크](https://boom-nigella-c57.notion.site/e658da55f3374948aed7d395bdc748d2)
 
 
