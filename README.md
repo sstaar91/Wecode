@@ -20,11 +20,16 @@ frontend 혼자서 구현한 내용이기에, 대부분의 데이터 통신은 m
 - npm install
 - npm start
 
+or
+
+- [vercel 배포 페이지](https://wecode-1st-project-1.vercel.app/)
+
 ## 기능 목록
 <details>
 <summary>Ver 1.0.0</summary>
-  - 기간 : 23.03.23 ~ 29 (약 7일)
-  - 소개 : 기존 팀으로 진행했던 프로젝트의 user flow를 기반으로 기본적인 레이아웃과 기능 구현
+  <br/>
+  - 기간 : 23.03.23 ~ 29 (약 7일)<br/><br/>
+  - 소개 : 기존 팀으로 진행했던 프로젝트의 user flow를 기반으로 기본적인 레이아웃과 기능 구현<br/><br/>
   - 개발 기능 : [확인 링크]()
 </details>
 
