@@ -36,6 +36,6 @@ or
 ## 이전 Project Info
 
 - [wecode 1차 프로젝트 - 프로젝트 개요](https://bluemind917.tistory.com/253)
-- [wecode 1차 프로젝트 - 회고록 블로그 링크](https://boom-nigella-c57.notion.site/e658da55f3374948aed7d395bdc748d2)
+- [wecode 1차 프로젝트 - 회고록 블로그 링크](https://www.notion.so/e658da55f3374948aed7d395bdc748d2)
 
 
