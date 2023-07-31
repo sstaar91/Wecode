@@ -11,7 +11,7 @@
 }
 
 .carouselBox {
-  @include flexCenter;
+  @include flexBox;
   padding: 0 150px;
 }
 
@@ -21,8 +21,7 @@
 }
 
 .card {
-  @include flexCenter;
-  flex-direction: column;
+  @include flexColumn;
   height: 100%;
   border: 3px solid $theme-main;
   border-radius: 20px;
@@ -48,7 +47,7 @@
 }
 
 .subTitle {
-  @include flexCenter;
+  @include flexBox;
   @include fontSelect(15px, 700);
   width: fit-content;
   margin-top: 5px;

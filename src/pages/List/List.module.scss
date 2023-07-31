@@ -5,8 +5,7 @@
 }
 
 .titleWrap {
-  @include flexCenter;
-  flex-direction: column;
+  @include flexColumn;
   gap: 25px;
   height: 300px;
   background-color: $theme-disabled;
@@ -35,8 +34,7 @@
 }
 
 .shopWrap {
-  @include flexCenter;
-  flex-direction: column;
+  @include flexColumn;
   margin-top: 20px;
   gap: 20px;
 }

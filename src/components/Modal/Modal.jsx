@@ -12,12 +12,12 @@ const Modal = ({ children, handleModal }) => {
 
   return (
     <div
-      className={css.modal}
+      className={css.dimmedBackground}
       onClick={() => {
         handleModal(false);
       }}
     >
-      {children}
+      <div className={css.container}>{children}</div>
     </div>
   );
 };

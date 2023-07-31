@@ -17,7 +17,8 @@
     "react-slick": "^0.29.0",
     "sass": "^1.49.7",
     "slick-carousel": "^1.8.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "word-wrap": "^1.2.4"
   },
   "scripts": {
     "start": "react-scripts start",

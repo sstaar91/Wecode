@@ -1,8 +1,7 @@
 @import '../../styles';
 
 .loading {
-  @include flexCenter;
-  flex-direction: column;
+  @include flexColumn;
   height: 800px;
 }
 
