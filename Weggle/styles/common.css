@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Noto sans, sans-serif;
+}
+
+:root {
+  --primary: rgba(243, 229, 36, 0.2);
+}
