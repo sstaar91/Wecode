@@ -1,6 +1,6 @@
 <p align="center">
 
-<img width="370" alt="wecode logo" src="https://github.com/sstaar91/Wecode/assets/78401083/aced9ca4-97a1-4796-86cf-d63ae90aefe6">
+<img width="370" alt="wecode logo" src="https://github.com/sstaar91/Wecode/assets/78401083/71de9c37-45ed-4d08-a5f8-bc6d493e4f07">
 
 # Wecode Log
 
@@ -13,6 +13,5 @@
 - Practice) HTML, CSS, Javascript
 - Project) React.js, Sass, Styled-components
 - Internship) Typescript, Sass module
-
 
 </p>
