@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
+
+$flex-map: (
+  start: flex-start,
+  end: flex-end,
+  center: center,
+  between: space-between,
+  around: space-around,
+  stretch: stretch,
+);
+
+@function _get-flex-value($key) {
+  @return map-get($flex-map, $key);
+}
+
+@mixin flexBox($jc: center, $ai: center) {
+  display: flex;
+  align-items: _get-flex-value($ai);
+  justify-content: _get-flex-value($jc);
+}
+
+@mixin flexColumn($jc: center, $ai: center) {
+  display: flex;
+  align-items: _get-flex-value($ai);
+  justify-content: _get-flex-value($jc);
+  flex-direction: column;
+}
+
+@mixin flexSelect($content, $align: center) {
+  display: flex;
+  align-items: $align;
+  justify-content: $content;
+}
+
+@mixin fontSelect($size, $weight) {
+  font-size: $size;
+  font-weight: $weight;
+}

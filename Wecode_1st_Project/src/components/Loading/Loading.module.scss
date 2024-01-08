@@ -1,0 +1,30 @@
+@import '../../styles';
+
+.loading {
+  @include flexColumn;
+  height: 800px;
+}
+
+.chicken {
+  margin-top: 30px;
+  padding: 2px;
+  border-radius: 100%;
+  width: 120px;
+  animation: loading 1.5s linear infinite;
+}
+
+.description {
+  @include fontSelect(50px, 700);
+  margin-top: 50px;
+  font-family: 'Gaegu', cursive;
+  color: $theme-main;
+}
+
+@keyframes loading {
+  0% {
+    transform: translateX(-800%);
+  }
+  100% {
+    transform: translateX(800%);
+  }
+}

@@ -1,0 +1,40 @@
+@import '../../styles';
+
+.container {
+  margin-top: 70px;
+}
+
+.titleWrap {
+  @include flexColumn;
+  gap: 25px;
+  height: 300px;
+  background-color: $theme-disabled;
+}
+
+.title {
+  font-size: 40px;
+  font-family: 'Gaegu', cursive;
+}
+
+.subTitle {
+  display: flex;
+  align-items: center;
+  padding: 8px 200px;
+  font-size: 30px;
+  font-family: 'Gaegu', cursive;
+  color: white;
+  border-radius: 15px;
+  background-color: $theme-shadow;
+  gap: 10px;
+}
+
+.location {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.shopWrap {
+  @include flexColumn;
+  margin-top: 20px;
+  gap: 20px;
+}

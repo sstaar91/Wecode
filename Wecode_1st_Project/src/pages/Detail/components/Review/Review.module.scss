@@ -1,0 +1,131 @@
+@import '../../../../styles';
+
+.container {
+  padding: 30px 70px;
+}
+
+.title {
+  @include fontSelect(70px, 400);
+  display: inline-block;
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+.sortBtn {
+  margin-left: 20px;
+  padding: 5px 15px;
+  border: 2px solid $theme-main;
+  border-radius: 10px;
+  background-color: white;
+  font-weight: 700;
+}
+
+.reviewBox {
+  @include flexColumn;
+  gap: 30px;
+  padding-top: 30px;
+}
+
+.reviewForm {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 50px 0;
+  padding: 15px;
+  border: 1px solid $theme-main;
+  border-radius: 20px;
+  gap: 10px;
+}
+
+.reviewArea {
+  height: 100px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 1px solid $theme-disabled;
+  border-radius: 20px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.ratingForm {
+  @include flexBox;
+  gap: 10px;
+}
+
+.ratingImg {
+  width: 40px;
+  border-radius: 100%;
+  filter: grayscale(100%);
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.check {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+.reviewCard {
+  display: flex;
+  gap: 20px;
+  width: 80%;
+
+  & > svg {
+    padding: 10px;
+    border: 3px solid $theme-main;
+    border-radius: 100%;
+  }
+}
+
+.userId {
+  color: $theme-main;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.rating {
+  margin-left: 15px;
+
+  & > svg {
+    margin-right: 5px;
+  }
+}
+
+.create {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.description {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.buttonBox {
+  @include flexSelect(space-around);
+}
+
+.button {
+  @include fontSelect(18px, 700);
+  width: 28%;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  border-radius: 20px;
+  opacity: 0.4;
+  color: white;
+
+  &:hover {
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+  }
+}
+
+.black {
+  background-color: $theme-black;
+}
+
+.main {
+  background-color: $theme-main;
+}

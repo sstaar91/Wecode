@@ -1,0 +1,59 @@
+@import '../../../styles';
+
+.container {
+  width: 100%;
+}
+
+.title {
+  @include fontSelect(30px, 700);
+  margin: 40px 80px;
+  color: $theme-main;
+}
+
+.carouselBox {
+  @include flexBox;
+  padding: 0 150px;
+}
+
+.cardBox {
+  height: 250px;
+  padding: 10px;
+}
+
+.card {
+  @include flexColumn;
+  height: 100%;
+  border: 3px solid $theme-main;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    transform: translate(-2px, -5px);
+    box-shadow: 5px 10px 5px $theme-shadow;
+  }
+}
+
+.cardTitle {
+  @include fontSelect(21px, 900);
+  width: 90%;
+  padding: 8px 0;
+  background-color: $theme-shadow;
+  color: $theme-white;
+  text-align: center;
+}
+
+.subTitle {
+  @include flexBox;
+  @include fontSelect(15px, 700);
+  width: fit-content;
+  margin-top: 5px;
+  padding: 5px 15px;
+  background-color: $theme-shadow;
+  color: $theme-white;
+  word-wrap: break-word;
+  gap: 10px;
+}

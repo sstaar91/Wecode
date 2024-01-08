@@ -1,0 +1,130 @@
+@import '../../styles';
+
+.infoContainer {
+  @include flexSelect(space-between, flex-start);
+  margin-top: 70px;
+  padding: 70px;
+}
+
+.shopImg {
+  width: 45%;
+}
+
+.infoBox {
+  width: 50%;
+  padding-top: 30px;
+
+  & > div {
+    margin: 30px 0;
+  }
+}
+
+.title {
+  @include fontSelect(70px, 400);
+  display: inline-block;
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+.recommand {
+  @include fontSelect(25px, 400);
+  margin-left: 50px;
+
+  & > svg {
+    margin-right: 10px;
+  }
+}
+
+.infoWrap {
+  @include fontSelect(20px, 400);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  & > span > svg {
+    margin-right: 10px;
+  }
+}
+
+.menuBox {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding: 15px 20px;
+  padding-top: 30px;
+  border: 3px solid $theme-main;
+  border-radius: 20px;
+}
+
+.menuText {
+  @include fontSelect(20px, 700);
+  position: absolute;
+  top: -15px;
+  left: 30px;
+  width: fit-content;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: $theme-main;
+  color: white;
+}
+
+.menuCard {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  cursor: default;
+}
+
+.pick {
+  @include fontSelect(20px, 400);
+  display: inline-block;
+  width: 40px;
+  margin-right: 10px;
+  color: $theme-main;
+  font-family: 'Gaegu', cursive;
+}
+
+.menuTitle {
+  @include fontSelect(25px, 400);
+  display: inline-block;
+  flex: 3;
+  width: 200px;
+  margin-bottom: 10px;
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+.menuinfo {
+  @include fontSelect(18px, 700);
+  flex: 2;
+}
+
+.buttonBox {
+  @include flexSelect(space-around);
+}
+
+.button {
+  @include fontSelect(18px, 700);
+  width: 28%;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  border-radius: 20px;
+  opacity: 0.4;
+  color: white;
+
+  &:hover {
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+  }
+}
+
+.eatDeal {
+  background-color: $theme-eatDeal;
+}
+
+.black {
+  background-color: $theme-black;
+}
+
+.main {
+  background-color: $theme-main;
+}
