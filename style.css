@@ -1,0 +1,78 @@
+.weegleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: white;
+}
+
+.weegleLogo {
+  width: 700px;
+}
+
+.weegleInputBox {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  width: 50vw;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.fa-solid {
+  flex: 1;
+}
+
+.weegleInput {
+  flex: 8;
+  height: 30px;
+  border: none;
+  outline: none;
+}
+
+.fa-microphone {
+  color: #0a8dff;
+}
+
+.weegleButtonWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.weegleButtonWrap > button {
+  padding: 20px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.weegleColorCard {
+  color: green;
+}
+
+.weegleResetBtn {
+  color: #0a8dff;
+}
+
+.weegleServiceWrap {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.weegleChangeLanguage {
+  text-decoration-line: none;
+}
+
+.weegleChangeLanguage:link {
+  color: black;
+}
+
+.weegleChangeLanguage:visited {
+  color: red;
+}
