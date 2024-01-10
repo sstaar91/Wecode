@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/styles/reset.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/common.css" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lemon&display=swap"
+      rel="stylesheet"
+    />
+    <title>Westagram</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="loginBox">
+        <h1 class="logo">Westagram</h1>
+        <form class="loginForm">
+          <input
+            id="id"
+            class="loginInput"
+            type="text"
+            placeholder="Username"
+            required
+          />
+          <input
+            id="pw"
+            class="loginInput"
+            type="password"
+            placeholder="Password"
+            required
+          />
+          <button class="button signin" disabled>Sign In</button>
+        </form>
+        <button class="button signup">Sign Up</button>
+      </div>
+    </main>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
