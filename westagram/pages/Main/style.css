@@ -140,6 +140,16 @@
   margin-top: 16px;
 }
 
+.comment {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  margin-bottom: 6px;
+}
+
+.comment > span:first-child {
+  font-weight: 700;
+}
+
 .commentBox {
   display: grid;
   grid-template-columns: 9fr 1fr;
@@ -160,7 +170,9 @@
   color: #4ad395;
   font-size: 14px;
   font-weight: 700;
-  cursor: pointer;
+  opacity: 0.5;
+  cursor: not-allowed;
+  transition: 0.3s all ease-in-out;
 }
 
 .aside {
