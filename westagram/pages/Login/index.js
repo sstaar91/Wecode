@@ -24,7 +24,10 @@ const changeSigninBtn = (status) => {
 loginForm.addEventListener("submit", (e) => {
   e.preventDefault();
 
+  const userName = idInput.value.slice(0, idInput.value.lastIndexOf("@"));
+
   alert("환영합니다!");
+  localStorage.setItem("userId", userName);
   location.replace("../Main/index.html");
 });
 

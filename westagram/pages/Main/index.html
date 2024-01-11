@@ -3,13 +3,143 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="/styles/reset.css" />
-    <link rel="stylesheet" type="text/css" href="/styles/common.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lemon&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/af6e50f004.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="../../styles/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../../styles/common.css" />
     <link rel="stylesheet" type="text/css" href="./style.css" />
     <title>Westagram</title>
   </head>
   <body>
-    <div>main</div>
+    <div class="navBackground">
+      <nav class="nav">
+        <h1 class="logo">Westagram</h1>
+        <input class="searchInput" placeholder="친구를 검색하세요" />
+        <i class="far fa-user"></i>
+      </nav>
+    </div>
+    <article class="container">
+      <section class="feedList">
+        <div class="feed">
+          <div class="feedHeader">
+            <div class="userInfo">
+              <div class="userImageWrap">
+                <img
+                  class="userImage"
+                  src="../../images/userImage.png"
+                  alt="user image"
+                />
+              </div>
+              <span>sstaar_mx</span>
+            </div>
+            <i class="fas fa-ellipsis-h"></i>
+          </div>
+          <div class="contentBox">
+            <img
+              class="contentImage"
+              src="../../images/content_01.jpg"
+              alt="content"
+            />
+          </div>
+          <div class="descBox">
+            <div class="commentIconWrapper">
+              <div>
+                <i class="fas fa-heart"></i>
+                <i class="far fa-comment"></i>
+                <i class="far fa-envelope-open"></i>
+              </div>
+              <i class="far fa-bookmark"></i>
+            </div>
+            <div class="likeUserBox">
+              <i class="fas fa-user-circle"></i>
+              <span class="likeUser">we-dohyeon</span>님 외 126명이 좋아합니다
+            </div>
+            <div class="description">
+              <span>sstaar_mx</span>
+              <span>청보리보리밭</span>
+            </div>
+            <span class="commentCount">댓글이 381개 달렸습니다</span>
+            <div class="commentList">
+              <div class="description">
+                <span>sstaar_mx</span>
+                <span>청보리보리밭</span>
+              </div>
+            </div>
+          </div>
+          <div class="commentBox">
+            <input class="commentInput" placeholder="댓글을 달아주세요" />
+            <button class="commentButton">댓글 달기</button>
+          </div>
+        </div>
+      </section>
+
+      <aside class="aside">
+        <div class="storyWrap">
+          <div class="storyHeader">
+            <p>스토리</p>
+            <p>모두 보기</p>
+          </div>
+          <section class="storyBox">
+            <i class="fas fa-user-circle"></i>
+            <div class="storyUserInfo">
+              <p>wecode_bootcamp</p>
+              <p>Wecode | 위코드</p>
+            </div>
+          </section>
+          <section class="storyBox">
+            <i class="fas fa-user-circle"></i>
+            <div class="storyUserInfo">
+              <p>wecode_bootcamp</p>
+              <p>Wecode | 위코드</p>
+            </div>
+          </section>
+          <section class="storyBox">
+            <i class="fas fa-user-circle"></i>
+            <div class="storyUserInfo">
+              <p>wecode_bootcamp</p>
+              <p>Wecode | 위코드</p>
+            </div>
+          </section>
+          <section class="storyBox">
+            <i class="fas fa-user-circle"></i>
+            <div class="storyUserInfo">
+              <p>wecode_bootcamp</p>
+              <p>Wecode | 위코드</p>
+            </div>
+          </section>
+          <section class="storyBox">
+            <i class="fas fa-user-circle"></i>
+            <div class="storyUserInfo">
+              <p>wecode_bootcamp</p>
+              <p>Wecode | 위코드</p>
+            </div>
+          </section>
+          <section class="storyBox">
+            <i class="fas fa-user-circle"></i>
+            <div class="storyUserInfo">
+              <p>wecode_bootcamp</p>
+              <p>Wecode | 위코드</p>
+            </div>
+          </section>
+        </div>
+        <footer>
+          <span>Westagram 정보</span>
+          <span>지원</span>
+          <span>홍보 센터</span>
+          <span>채용정보</span>
+          <span>약관</span>
+          <span>해시태그</span>
+        </footer>
+      </aside>
+    </article>
     <script type="module" src="./index.js"></script>
   </body>
 </html>
