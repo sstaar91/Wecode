@@ -1,0 +1,38 @@
+@import "@_styles/mixin.scss";
+@import "@_styles/color.scss";
+@import "@_styles/typo.scss";
+
+.navWrap {
+  @include flexCenter;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 16px 0;
+  width: 100%;
+  border-bottom: 1px solid $gray_border;
+}
+
+.nav {
+  @include customFlex(space-between);
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+}
+
+.logoBox {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navList {
+  @include typo(m);
+  @include flexCenter;
+  gap: 18px;
+}
+
+@media screen and (max-width: 1330px) {
+  .nav {
+    margin: 0 25px;
+  }
+}
