@@ -1,0 +1,10 @@
+@import "@_styles/typo.scss";
+@import "@_styles/color.scss";
+
+.default {
+  @include typo(s);
+}
+
+.gray {
+  color: $gray_text;
+}

@@ -1,0 +1,14 @@
+@import "@_styles/color.scss";
+@import "@_styles/typo.scss";
+
+.default {
+  @include typo(m, bold);
+  padding: 16px 12px;
+  width: 100%;
+  background-color: $main;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  cursor: pointer;
+}
