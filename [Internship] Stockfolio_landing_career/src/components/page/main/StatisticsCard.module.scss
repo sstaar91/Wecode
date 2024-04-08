@@ -1,0 +1,23 @@
+@import "@_styles/color.scss";
+@import "@_styles/typo.scss";
+
+.card {
+  position: relative;
+  padding: 12px;
+  width: 220px;
+  height: 140px;
+  border: 1px solid $gray_border;
+  border-radius: 8px;
+}
+
+.title {
+  @include typo(l);
+}
+
+.count {
+  @include typo(result, bold);
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  color: $deep_main;
+}

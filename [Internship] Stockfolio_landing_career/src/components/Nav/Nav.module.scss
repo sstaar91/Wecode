@@ -29,6 +29,16 @@
   @include typo(m);
   @include flexCenter;
   gap: 18px;
+  cursor: pointer;
+}
+
+.menu {
+  padding: 8px;
+}
+
+.select {
+  border-bottom: 2px solid black;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 1330px) {
