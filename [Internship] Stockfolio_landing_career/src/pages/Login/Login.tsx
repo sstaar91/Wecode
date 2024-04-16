@@ -40,6 +40,6 @@ const Login = () => {
 export default Login;
 
 const USER_INPUT = [
-  { id: 1, title: "아이디", name: "id", type: "text", placeholder: "아이디를 입력해주세요" },
-  { id: 2, title: "비밀번호", name: "password", type: "password", placeholder: "비밀번호를 입력해주세요" },
+  { id: 1, title: "아이디", titleColor: "gray", name: "id", type: "text", placeholder: "아이디를 입력해주세요" },
+  { id: 2, title: "비밀번호", titleColor: "gray", name: "password", type: "password", placeholder: "비밀번호를 입력해주세요" },
 ];

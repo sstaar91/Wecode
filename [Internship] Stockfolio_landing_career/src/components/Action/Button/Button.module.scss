@@ -3,12 +3,25 @@
 
 .default {
   @include typo(m, bold);
-  padding: 16px 12px;
+  padding: 12px 16px;
   width: 100%;
   background-color: $main;
   border-radius: 8px;
   border: none;
-  color: white;
+  color: $white;
   font-family: "Noto Sans KR", sans-serif;
   cursor: pointer;
+}
+
+.notice {
+  @include typo(s, bold);
+  width: 130px;
+  border: 1px solid $gray_1;
+  background-color: $white;
+  color: $black;
+}
+
+.emptyApply {
+  border: 1px solid $light_gray_2;
+  color: $lilac;
 }

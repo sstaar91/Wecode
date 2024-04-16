@@ -1,0 +1,29 @@
+@import "@_styles/typo.scss";
+@import "@_styles/mixin.scss";
+@import "@_styles/color.scss";
+
+.listWrap {
+  @include customFlex(space-between);
+  padding: 12px 20px;
+  border-radius: 12px;
+
+  &:hover {
+    background-color: $light_gray_1;
+  }
+}
+
+.subInfoBox {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: end;
+}
+
+.noticeTitle {
+  @include typo(s, bold);
+  color: $gray_2;
+}
+
+.name {
+  @include typo(xl, bold);
+}

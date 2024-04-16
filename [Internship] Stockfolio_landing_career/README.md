@@ -1,30 +1,11 @@
-# React + TypeScript + Vite
+# Wecode X Stockfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- wecode 인턴십 프로그램을 통해 협업한 프로젝트입니다.
+- frontend 영역에 대한 부분만 작업한 결과물입니다.
+- 2021년 당시 진행했던 팀 프로젝트는 아래 링크를 통해 확인해주세요
+- [front-landing-career](https://github.com/StockfolioOfficial/front-landing-career)
 
-Currently, two official plugins are available:
+## Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- React, Typescript, Sass
+- axios, recoil

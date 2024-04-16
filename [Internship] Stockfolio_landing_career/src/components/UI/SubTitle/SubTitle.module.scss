@@ -1,0 +1,7 @@
+@import "@_styles/color.scss";
+@import "@_styles/typo.scss";
+
+.title {
+  @include typo(xl, bold);
+  color: $black;
+}

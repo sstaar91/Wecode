@@ -9,7 +9,9 @@
   top: 0;
   padding: 16px 0;
   width: 100%;
-  border-bottom: 1px solid $gray_border;
+  background-color: $white;
+  border-bottom: 1px solid $light_gray_2;
+  z-index: 9999;
 }
 
 .nav {

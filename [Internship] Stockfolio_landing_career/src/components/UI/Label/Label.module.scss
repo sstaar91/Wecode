@@ -2,9 +2,20 @@
 @import "@_styles/color.scss";
 
 .default {
-  @include typo(s);
+  @include typo(s, bold);
+  padding: 2px 8px;
+  border-radius: 12px;
+  color: $white;
 }
 
-.gray {
-  color: $gray_text;
+.veteran {
+  background-color: $lilac;
+}
+
+.rookie {
+  background-color: $light_positive;
+}
+
+.new {
+  background-color: $nagative;
 }

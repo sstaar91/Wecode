@@ -1,0 +1,49 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "noticeTitle": "Frontend Developer",
+      "name": "김명성",
+      "career": "경력 2년 7개월",
+      "applyDate": "2024-04-16",
+      "email": "aaa@gmail.com",
+      "phone": "010-1234-1234"
+    },
+    {
+      "id": 2,
+      "noticeTitle": "Backend Developer",
+      "name": "응원시엔",
+      "career": "경력 8년 1개월",
+      "applyDate": "2024-04-05",
+      "email": "aab@gmail.com",
+      "phone": "010-1234-1234"
+    },
+    {
+      "id": 3,
+      "noticeTitle": "AI Developer",
+      "name": "알 핫살",
+      "career": "신입",
+      "applyDate": "2024-03-28",
+      "email": "aca@gmail.com",
+      "phone": "010-1234-1234"
+    },
+    {
+      "id": 4,
+      "noticeTitle": "Android Developer",
+      "name": "프랭크",
+      "career": "신입",
+      "applyDate": "2024-02-01",
+      "email": "bnaa@gmail.com",
+      "phone": "010-1234-1234"
+    },
+    {
+      "id": 5,
+      "noticeTitle": "ios Developer",
+      "name": "모카토시",
+      "career": "경력 5개월",
+      "applyDate": "2024-01-25",
+      "email": "weaa@gmail.com",
+      "phone": "010-1234-1234"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+@import "@_styles/color.scss";
+@import "@_styles/mixin.scss";
+@import "@_styles/typo.scss";
+
+.textWrap {
+  @include flexCenter;
+  @include typo(s);
+  gap: 8px;
+  color: $black;
+}
+
+.divider {
+  color: $gray_1;
+}
