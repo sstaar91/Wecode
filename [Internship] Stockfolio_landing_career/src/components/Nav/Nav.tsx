@@ -21,7 +21,7 @@ const Nav = () => {
             return (
               <li
                 key={list.id}
-                className={`${css.menu} ${pathname === list.path ? css.select : ""}`}
+                className={`${css.menu} ${pathname.includes(list.path) ? css.select : ""}`}
                 onClick={() => {
                   navigate(`${list.path}`);
                 }}
