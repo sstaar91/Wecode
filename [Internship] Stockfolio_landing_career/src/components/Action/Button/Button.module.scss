@@ -16,6 +16,7 @@
 .notice {
   @include typo(s, bold);
   width: 130px;
+  height: 100%;
   border: 1px solid $gray_1;
   background-color: $white;
   color: $black;

@@ -1,4 +1,5 @@
 import { ChangeEvent, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 
 import { Button, Input } from "@_components/Action";
@@ -9,6 +10,7 @@ import css from "./Login.module.scss";
 
 const Login = () => {
   const [userInfo, setUserInfo] = useState<UserInfo>({ id: "", password: "" });
+  const navigate = useNavigate();
 
   const handleInput = (e: ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -28,7 +30,8 @@ const Login = () => {
       </div>
       <Button
         onClickButton={() => {
-          toast.error("에러");
+          navigate("/main");
+          toast.success("환영합니다");
         }}
       >
         로그인

@@ -1,0 +1,31 @@
+@import "@_styles/color.scss";
+@import "@_styles/mixin.scss";
+@import "@_styles/typo.scss";
+
+.cardBox {
+  @include customFlex(space-between, flex-start, column);
+  width: 188px;
+  height: 88px;
+  padding: 16px 12px;
+  border-radius: 16px;
+  background-color: $light_gray_1;
+  cursor: pointer;
+}
+
+.selectBox {
+  background-color: $light_lilac;
+}
+
+.noticeTitle {
+  @include typo(m, bold);
+  color: $black;
+}
+
+.selectTitle {
+  color: $main;
+}
+
+.deadLine {
+  @include typo(s);
+  color: $gray_2;
+}

@@ -1,0 +1,91 @@
+@import "@_styles/mixin.scss";
+@import "@_styles/typo.scss";
+@import "@_styles/color.scss";
+
+.titleBox {
+  @include customFlex(space-between);
+  margin: 20px 0 50px;
+}
+
+.filterBox {
+  display: flex;
+  gap: 15px;
+}
+
+.category {
+  @include typo(m, bold);
+  cursor: default;
+}
+
+.noticeBox {
+  position: relative;
+  display: grid;
+  grid-template-columns: 188px 1fr;
+  gap: 20px;
+  height: 80vh;
+}
+
+.noticeListBox {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  overflow: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.noticeDetail {
+  padding: 28px;
+  border: 1px solid $light_gray_2;
+  border-radius: 8px;
+  overflow: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.noticeHeader {
+  @include customFlex(space-between);
+}
+
+.headerInfoBox {
+  @include typo(m, bold);
+  display: flex;
+  gap: 16px;
+
+  button {
+    padding: 0;
+    border: none;
+    background-color: white;
+    color: $gray_2;
+    cursor: pointer;
+  }
+}
+
+.noticeTitleBox {
+  @include customFlex(space-between);
+  margin-top: 24px;
+  height: 60px;
+}
+
+.noticeTitleInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  h2 {
+    @include typo(3xl, bold);
+  }
+
+  span {
+    @include typo(m);
+  }
+}
+
+.descriptionBox {
+  @include typo(m, bold);
+  margin-top: 100px;
+}

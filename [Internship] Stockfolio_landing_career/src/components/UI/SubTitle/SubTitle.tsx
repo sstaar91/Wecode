@@ -5,7 +5,7 @@ interface Props {
 }
 
 const SubTitle = ({ text }: Props) => {
-  return <h3 className={css.title}>{text}</h3>;
+  return <h1 className={css.title}>{text}</h1>;
 };
 
 export default SubTitle;

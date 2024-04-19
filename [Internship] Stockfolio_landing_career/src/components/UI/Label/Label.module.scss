@@ -3,9 +3,11 @@
 
 .default {
   @include typo(s, bold);
-  padding: 2px 8px;
+  display: inline-block;
+  padding: 0 8px 2px;
   border-radius: 12px;
   color: $white;
+  text-align: center;
 }
 
 .veteran {
@@ -18,4 +20,15 @@
 
 .new {
   background-color: $nagative;
+}
+
+.not {
+  width: 37px;
+  background-color: $light_gray_2;
+  color: $black;
+}
+
+.select {
+  width: 37px;
+  background-color: $deep_main;
 }

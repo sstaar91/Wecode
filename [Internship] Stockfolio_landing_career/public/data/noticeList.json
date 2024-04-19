@@ -1,11 +1,74 @@
 {
   "data": [
-    { "id": 1, "position": "신입", "noticeTitle": "Frontend Developer", "noticeType": "정규직", "deadLine": "2024-09-30", "count": 12 },
-    { "id": 2, "position": "신입", "noticeTitle": "Backend Developer", "noticeType": "정규직", "deadLine": "2024-09-30", "count": 33 },
-    { "id": 3, "position": "경력", "noticeTitle": "AI Developer", "noticeType": "계약직", "deadLine": "2024-03-22", "count": 0 },
-    { "id": 4, "position": "경력", "noticeTitle": "Android Developer", "noticeType": "정규직", "deadLine": "2024-07-21", "count": 22 },
-    { "id": 5, "position": "경력", "noticeTitle": "ios Developer", "noticeType": "정규직", "deadLine": "2024-06-15", "count": 3 },
-    { "id": 6, "position": "신입", "noticeTitle": "인사팀", "noticeType": "정규직", "deadLine": "2024-06-15", "count": 84 },
-    { "id": 7, "position": "경력", "noticeTitle": "PM", "noticeType": "정규직", "deadLine": "2024-06-15", "count": 2 }
+    {
+      "id": 1,
+      "position": "신입",
+      "noticeTitle": "Frontend Developer",
+      "author": "김명성",
+      "category": "dev",
+      "noticeType": "정규직",
+      "deadLine": "2024-09-30",
+      "count": 12
+    },
+    {
+      "id": 2,
+      "position": "신입",
+      "noticeTitle": "Backend Developer",
+      "author": "김명성",
+      "category": "dev",
+      "noticeType": "정규직",
+      "deadLine": "2024-09-30",
+      "count": 33
+    },
+    {
+      "id": 3,
+      "position": "경력",
+      "noticeTitle": "AI Developer",
+      "author": "김명성",
+      "category": "dev",
+      "noticeType": "계약직",
+      "deadLine": "2024-03-22",
+      "count": 0
+    },
+    {
+      "id": 4,
+      "position": "경력",
+      "noticeTitle": "Android Developer",
+      "author": "김명성",
+      "category": "dev",
+      "noticeType": "정규직",
+      "deadLine": "2024-07-21",
+      "count": 22
+    },
+    {
+      "id": 5,
+      "position": "경력",
+      "noticeTitle": "ios Developer",
+      "author": "김명성",
+      "category": "dev",
+      "noticeType": "정규직",
+      "deadLine": "2024-06-15",
+      "count": 3
+    },
+    {
+      "id": 6,
+      "position": "신입",
+      "noticeTitle": "Designer (Junior) ",
+      "author": "김명성",
+      "category": "design",
+      "noticeType": "정규직",
+      "deadLine": "2024-06-15",
+      "count": 84
+    },
+    {
+      "id": 7,
+      "position": "경력",
+      "noticeTitle": "마케터",
+      "author": "김명성",
+      "category": "marketing",
+      "noticeType": "정규직",
+      "deadLine": "2024-06-15",
+      "count": 2
+    }
   ]
 }

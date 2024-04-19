@@ -3,6 +3,8 @@ export interface NoticeListType {
   position: string;
   noticeTitle: string;
   noticeType: string;
+  author: string;
+  category: string;
   deadLine: string;
   count: number;
 }

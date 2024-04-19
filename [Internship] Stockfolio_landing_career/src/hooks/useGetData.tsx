@@ -6,14 +6,19 @@ const useGetData = (url: string) => {
   const [data, setData] = useState<any>([]);
   const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
+  const getData = async () => {
     try {
-      axios.get(url).then((res) => setData(res.data.data));
+      const res = await axios.get(url);
+      await setData(res.data.data);
     } catch (e) {
       console.error(e);
     } finally {
       setIsLoading(false);
     }
+  };
+
+  useEffect(() => {
+    getData();
   }, [url]);
 
   return { data, isLoading };

@@ -19,18 +19,16 @@ const List = () => {
 
   return (
     <PageLayout>
-      <article className={css.container}>
-        <div className={css.titleBox}>
-          <SubTitle text={listType === "noticeList" ? "채용 공고" : "최근 지원자"} />
-        </div>
-        {listType === "noticeList"
-          ? data.map((list: NoticeListType) => {
-              return <NoticeList key={list.id} {...list} />;
-            })
-          : data.map((list: ApplyListType) => {
-              return <ApplyList key={list.id} {...list} />;
-            })}
-      </article>
+      <div className={css.titleBox}>
+        <SubTitle text={listType === "noticeList" ? "채용 공고" : "최근 지원자"} />
+      </div>
+      {listType === "noticeList"
+        ? data.map((list: NoticeListType) => {
+            return <NoticeList key={list.id} {...list} />;
+          })
+        : data.map((list: ApplyListType) => {
+            return <ApplyList key={list.id} {...list} />;
+          })}
     </PageLayout>
   );
 };

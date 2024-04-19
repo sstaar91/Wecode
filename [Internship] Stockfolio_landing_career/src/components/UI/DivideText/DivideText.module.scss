@@ -3,7 +3,7 @@
 @import "@_styles/typo.scss";
 
 .textWrap {
-  @include flexCenter;
+  display: flex;
   @include typo(s);
   gap: 8px;
   color: $black;
@@ -11,4 +11,8 @@
 
 .divider {
   color: $gray_1;
+}
+
+.blackDived {
+  color: $black;
 }
