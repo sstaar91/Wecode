@@ -3,8 +3,8 @@
 @import "@_styles/typo.scss";
 
 .textWrap {
-  display: flex;
   @include typo(s);
+  display: flex;
   gap: 8px;
   color: $black;
 }
