@@ -12,6 +12,7 @@ const Router = () => {
         <Route path="/main" element={<Main />} />
         <Route path="/notice" element={<Notice />} />
         <Route path="/notice/list" element={<List />} />
+        <Route path="/notice/list/:id" element={<List />} />
       </Routes>
       <Toast />
     </BrowserRouter>

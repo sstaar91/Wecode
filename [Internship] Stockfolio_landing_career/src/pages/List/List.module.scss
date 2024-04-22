@@ -1,3 +1,17 @@
+@import "@_styles/mixin.scss";
+@import "@_styles/color.scss";
+@import "@_styles/typo.scss";
+
 .titleBox {
   margin-bottom: 20px;
+}
+
+.noticeDetailApply {
+  @include customFlex(space-between);
+}
+
+.noticeTitle {
+  @include typo(l, bold);
+  color: $deep_main;
+  cursor: default;
 }

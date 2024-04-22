@@ -1,4 +1,7 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { useSetRecoilState } from "recoil";
+import { listState } from "@_lib/atoms";
 import useGetData from "@_hooks/useGetData";
 
 import PageLayout from "@_components/Layout/PageLayout";
@@ -15,6 +18,9 @@ const Notice = () => {
   const { data, isLoading } = useGetData("/data/noticeList.json");
   const [curCategory, setCurCategory] = useState("all");
   const [curNoticeIdx, setCurNoticeIdx] = useState(0);
+  const setListType = useSetRecoilState(listState);
+
+  const navigate = useNavigate();
 
   const onSelectCategory = (value: string) => {
     setCurCategory(value);
@@ -28,7 +34,7 @@ const Notice = () => {
   if (isLoading) return <></>;
 
   const filterData = data.filter((el: NoticeListType) => (curCategory === "all" ? el : el.category === curCategory));
-  const { position, author, noticeTitle, noticeType, deadLine, count } = filterData[curNoticeIdx];
+  const { id, position, author, noticeTitle, noticeType, deadLine, count } = filterData[curNoticeIdx];
 
   const labelType: { [key: string]: string } = {
     경력: "veteran",
@@ -71,7 +77,15 @@ const Notice = () => {
               <h2>{noticeTitle}</h2>
               <DivideText type="default" front={noticeType} back={deadLine} />
             </div>
-            <Button type="notice" addStyle={count === 0 ? "emptyApply" : ""} disabled={count === 0} onClickButton={() => {}}>
+            <Button
+              type="notice"
+              addStyle={count === 0 ? "emptyApply" : ""}
+              disabled={count === 0}
+              onClickButton={() => {
+                setListType("applyList");
+                navigate(`/notice/list/${id}`);
+              }}
+            >
               지원자 리스트 ({count})
             </Button>
           </div>

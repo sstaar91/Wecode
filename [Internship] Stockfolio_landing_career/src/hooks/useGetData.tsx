@@ -17,11 +17,15 @@ const useGetData = (url: string) => {
     }
   };
 
+  const refetch = () => {
+    getData();
+  };
+
   useEffect(() => {
     getData();
   }, [url]);
 
-  return { data, isLoading };
+  return { data, isLoading, refetch };
 };
 
 export default useGetData;

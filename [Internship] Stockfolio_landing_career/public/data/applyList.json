@@ -3,6 +3,7 @@
     {
       "id": 1,
       "noticeTitle": "Frontend Developer",
+      "noticeId": 1,
       "name": "김명성",
       "career": "경력 2년 7개월",
       "applyDate": "2024-04-16",
@@ -12,6 +13,7 @@
     {
       "id": 2,
       "noticeTitle": "Backend Developer",
+      "noticeId": 2,
       "name": "응원시엔",
       "career": "경력 8년 1개월",
       "applyDate": "2024-04-05",
@@ -21,6 +23,7 @@
     {
       "id": 3,
       "noticeTitle": "AI Developer",
+      "noticeId": 3,
       "name": "알 핫살",
       "career": "신입",
       "applyDate": "2024-03-28",
@@ -30,6 +33,7 @@
     {
       "id": 4,
       "noticeTitle": "Android Developer",
+      "noticeId": 4,
       "name": "프랭크",
       "career": "신입",
       "applyDate": "2024-02-01",
@@ -39,6 +43,7 @@
     {
       "id": 5,
       "noticeTitle": "ios Developer",
+      "noticeId": 5,
       "name": "모카토시",
       "career": "경력 5개월",
       "applyDate": "2024-01-25",
@@ -48,6 +53,7 @@
     {
       "id": 6,
       "noticeTitle": "Android Developer",
+      "noticeId": 4,
       "name": "완야무",
       "career": "신입",
       "applyDate": "2024-02-01",
@@ -57,6 +63,7 @@
     {
       "id": 7,
       "noticeTitle": "Android Developer",
+      "noticeId": 4,
       "name": "드 볼랭",
       "career": "신입",
       "applyDate": "2024-02-01",

@@ -8,7 +8,7 @@
       "category": "dev",
       "noticeType": "정규직",
       "deadLine": "2024-09-30",
-      "count": 12
+      "count": 1
     },
     {
       "id": 2,
@@ -18,7 +18,7 @@
       "category": "dev",
       "noticeType": "정규직",
       "deadLine": "2024-09-30",
-      "count": 33
+      "count": 1
     },
     {
       "id": 3,
@@ -28,7 +28,7 @@
       "category": "dev",
       "noticeType": "계약직",
       "deadLine": "2024-03-22",
-      "count": 0
+      "count": 1
     },
     {
       "id": 4,
@@ -38,7 +38,7 @@
       "category": "dev",
       "noticeType": "정규직",
       "deadLine": "2024-07-21",
-      "count": 22
+      "count": 3
     },
     {
       "id": 5,
@@ -48,7 +48,7 @@
       "category": "dev",
       "noticeType": "정규직",
       "deadLine": "2024-06-15",
-      "count": 3
+      "count": 1
     },
     {
       "id": 6,
@@ -58,7 +58,7 @@
       "category": "design",
       "noticeType": "정규직",
       "deadLine": "2024-06-15",
-      "count": 84
+      "count": 0
     },
     {
       "id": 7,
@@ -68,7 +68,7 @@
       "category": "marketing",
       "noticeType": "정규직",
       "deadLine": "2024-06-15",
-      "count": 2
+      "count": 0
     }
   ]
 }
