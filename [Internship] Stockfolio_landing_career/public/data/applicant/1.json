@@ -1,0 +1,39 @@
+{
+  "data": {
+    "id": 1,
+    "noticeTitle": "Frontend Developer",
+    "noticeId": 1,
+    "name": "김명성",
+    "applyDate": "2024-04-16",
+    "email": "aaa@gmail.com",
+    "phone": "010-1234-1234",
+    "career": [
+      {
+        "id": 1,
+        "company": "네이버",
+        "position": "인턴",
+        "startAt": "2021-01-11",
+        "endAt": "2023-08-12",
+        "work": "사장님 비자금 조성"
+      }
+    ],
+    "project": [
+      {
+        "id": 1,
+        "title": "요요 프로젝트",
+        "startAt": "2020-09-17",
+        "endAt": "2020-10-22",
+        "stack": "React, Next.js",
+        "description": "다이어트 이후 급격히 찾아오는 요요를 예방하기 위한 체질별 솔루션을 제공하는 프로젝트입니다."
+      }
+    ],
+    "intro": "안녕하세요 잘 할 수 있습니다 뭐든지",
+    "edu": "대학교",
+    "schoolName": "강원대",
+    "major": "경영학",
+    "grades": "3.8 / 4.5",
+    "status": "졸업",
+    "enter": "2010-03-11",
+    "grauation": "2018-02-11"
+  }
+}

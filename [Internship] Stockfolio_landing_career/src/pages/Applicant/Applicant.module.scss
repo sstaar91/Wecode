@@ -1,0 +1,44 @@
+@import "@_styles/typo.scss";
+@import "@_styles/mixin.scss";
+@import "@_styles/color.scss";
+
+.container {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  gap: 20px;
+}
+
+.applycantInfoBox {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.name {
+  @include typo(title, bold);
+}
+
+.titleBox {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.infoBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 14px;
+
+  span:first-child {
+    @include typo(l);
+    color: $positive;
+    cursor: pointer;
+  }
+
+  span:last-child {
+    @include typo(m);
+    color: $gray_2;
+    cursor: default;
+  }
+}

@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Nav from "@_components/Nav";
-import { List, Login, Main, Notice } from "./pages";
+import { Applicant, List, Login, Main, Notice } from "./pages";
 import { Toast } from "@_components/UI";
 
 const Router = () => {
@@ -13,6 +13,7 @@ const Router = () => {
         <Route path="/notice" element={<Notice />} />
         <Route path="/notice/list" element={<List />} />
         <Route path="/notice/list/:id" element={<List />} />
+        <Route path="/notice/apply/:id" element={<Applicant />} />
       </Routes>
       <Toast />
     </BrowserRouter>

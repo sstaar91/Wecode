@@ -1,0 +1,21 @@
+{
+  "data": {
+    "id": 7,
+    "noticeTitle": "Android Developer",
+    "noticeId": 4,
+    "name": "드 볼랭",
+    "applyDate": "2024-02-01",
+    "email": "dbl@gmail.com",
+    "phone": "010-1234-1234",
+    "career": [],
+    "project": [],
+    "intro": "봉즈르, 마드모아즐",
+    "edu": "대학교",
+    "schoolName": "방방모아젤",
+    "major": "컴퓨터공학과",
+    "grades": "4.4 / 4.5",
+    "status": "졸업",
+    "enter": "2015-03-02",
+    "grauation": "2020-02-28"
+  }
+}

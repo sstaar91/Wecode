@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useSetRecoilState } from "recoil";
 import { listState } from "@_lib/atoms";
@@ -30,6 +30,20 @@ const Notice = () => {
   const onSelectNoticeList = (id: number) => {
     setCurNoticeIdx(id);
   };
+
+  const onClickApplyList = () => {
+    setListType("applyList");
+    sessionStorage.setItem("category", curCategory);
+    sessionStorage.setItem("noticeIdx", String(curNoticeIdx));
+    navigate(`/notice/list/${id}`);
+  };
+
+  useEffect(() => {
+    if (sessionStorage.getItem("category")) {
+      setCurCategory(sessionStorage.getItem("category") as string);
+      setCurNoticeIdx(Number(sessionStorage.getItem("noticeIdx")) as number);
+    }
+  }, []);
 
   if (isLoading) return <></>;
 
@@ -77,15 +91,7 @@ const Notice = () => {
               <h2>{noticeTitle}</h2>
               <DivideText type="default" front={noticeType} back={deadLine} />
             </div>
-            <Button
-              type="notice"
-              addStyle={count === 0 ? "emptyApply" : ""}
-              disabled={count === 0}
-              onClickButton={() => {
-                setListType("applyList");
-                navigate(`/notice/list/${id}`);
-              }}
-            >
+            <Button type="notice" addStyle={count === 0 ? "emptyApply" : ""} disabled={count === 0} onClickButton={onClickApplyList}>
               지원자 리스트 ({count})
             </Button>
           </div>

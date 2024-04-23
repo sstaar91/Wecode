@@ -1,0 +1,31 @@
+@import "@_styles/typo.scss";
+@import "@_styles/color.scss";
+
+.detailInfoBox {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 16px;
+}
+
+.InfoCardWarp {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 36px;
+  margin-bottom: 20px;
+}
+
+.infoCard {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  span:first-child {
+    @include typo(s);
+    color: $gray_2;
+  }
+
+  span:last-child {
+    @include typo(m);
+    color: $black;
+  }
+}

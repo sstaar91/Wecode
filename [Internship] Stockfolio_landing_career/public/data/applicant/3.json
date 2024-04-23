@@ -1,0 +1,30 @@
+{
+  "data": {
+    "id": 3,
+    "noticeTitle": "AI Developer",
+    "noticeId": 3,
+    "name": "알 핫살",
+    "applyDate": "2024-03-28",
+    "email": "aca@gmail.com",
+    "phone": "010-1234-1234",
+    "career": [],
+    "project": [
+      {
+        "id": 1,
+        "title": "알 하무스",
+        "startAt": "2023-08-12",
+        "endAt": "2023-11-30",
+        "stack": "Chat GPT",
+        "description": "언제 어디서든 기도 내용에 대해서 정리해 주는 프로그램"
+      }
+    ],
+    "intro": "핫살라 말라이쿰",
+    "edu": "대학원",
+    "schoolName": "살람마샬",
+    "major": "시각디자인학과",
+    "grades": "4.2 / 4.2",
+    "status": "졸업",
+    "enter": "2010-03-02",
+    "grauation": "2021-02-14"
+  }
+}

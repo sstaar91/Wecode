@@ -1,0 +1,14 @@
+@import "@_styles/color.scss";
+@import "@_styles/typo.scss";
+
+.textarea {
+  @include typo(m);
+  padding: 12px;
+  width: 100%;
+  border: 1px solid $light_gray_2;
+  border-radius: 8px;
+  background-color: $white;
+  resize: none;
+  color: $black;
+  font-family: "Noto Sans KR", sans-serif;
+}

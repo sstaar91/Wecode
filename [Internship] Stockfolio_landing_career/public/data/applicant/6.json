@@ -1,0 +1,21 @@
+{
+  "data": {
+    "id": 6,
+    "noticeTitle": "Android Developer",
+    "noticeId": 4,
+    "name": "완야무",
+    "applyDate": "2024-02-01",
+    "email": "wan@gmail.com",
+    "phone": "010-1234-1234",
+    "career": [],
+    "project": [],
+    "intro": "안녕하세요 완야무입니다. 기세로 지원합니다",
+    "edu": "중학교",
+    "schoolName": "개룡중",
+    "major": "",
+    "grades": "0",
+    "status": "졸업",
+    "enter": "2009-03-02",
+    "grauation": "2012-02-21"
+  }
+}

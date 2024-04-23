@@ -1,0 +1,47 @@
+{
+  "data": {
+    "id": 2,
+    "noticeTitle": "Backend Developer",
+    "noticeId": 2,
+    "name": "응원시엔",
+    "applyDate": "2024-04-05",
+    "email": "aab@gmail.com",
+    "phone": "010-1234-1234",
+    "career": [
+      {
+        "id": 1,
+        "company": "카카오",
+        "position": "인턴",
+        "startAt": "2023-10-11",
+        "endAt": "2024-04-12",
+        "work": "초콜렛 공장 DB 구성"
+      },
+      {
+        "id": 2,
+        "company": "라인",
+        "position": "인턴",
+        "startAt": "2022-04-11",
+        "endAt": "2024-09-23",
+        "work": "줄 맞추기 1급 자격증 심사"
+      }
+    ],
+    "project": [
+      {
+        "id": 1,
+        "title": "노티스",
+        "startAt": "2021-02-11",
+        "endAt": "2021-04-02",
+        "stack": "JAVA",
+        "description": "언제 어디서든 알람을 들을 수 있는 시스템"
+      }
+    ],
+    "intro": "응원나이 요로로가인",
+    "edu": "고등학교",
+    "schoolName": "쏨당고",
+    "major": "",
+    "grades": "0",
+    "status": "졸업",
+    "enter": "2015-03-02",
+    "grauation": "2019-02-14"
+  }
+}

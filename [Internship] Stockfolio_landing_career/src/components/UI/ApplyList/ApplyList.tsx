@@ -1,7 +1,9 @@
+import { useNavigate } from "react-router-dom";
 import DivideText from "../DivideText";
 import css from "./ApplyList.module.scss";
 
 interface Props {
+  id: number;
   noticeTitle: string;
   name: string;
   career: string;
@@ -10,9 +12,16 @@ interface Props {
   phone: string;
 }
 
-const ApplyList = ({ noticeTitle, name, career, applyDate, email, phone }: Props) => {
+const ApplyList = ({ id, noticeTitle, name, career, applyDate, email, phone }: Props) => {
+  const navigate = useNavigate();
+
   return (
-    <div className={css.listWrap}>
+    <div
+      className={css.listWrap}
+      onClick={() => {
+        navigate(`/notice/apply/${id}`);
+      }}
+    >
       <div>
         <span className={css.noticeTitle}>{noticeTitle}</span>
         <div className={css.name}>{name}</div>

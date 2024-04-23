@@ -18,7 +18,7 @@ const List = () => {
   if (data === undefined) return <Navigate to="/main" />;
   if (isLoading) return <></>;
 
-  const noticeTitle = id ? data.filter((el: ApplyListType) => el.noticeId === Number(id))[0].noticeTitle : "";
+  const noticeTitle = id ? data.filter((el: ApplyListType) => el.noticeId === Number(id))[0]?.noticeTitle : "";
   const applyData = id ? data.filter((el: ApplyListType) => el.noticeTitle === noticeTitle) : data;
 
   return (
@@ -27,7 +27,7 @@ const List = () => {
         {id ? (
           <div className={css.noticeDetailApply}>
             <SubTitle text="지원자 리스트" />
-            <h2 className={css.noticeTitle}>{noticeTitle || ""}</h2>
+            <h2 className={css.noticeTitle}>{noticeTitle}</h2>
             <div />
           </div>
         ) : (
