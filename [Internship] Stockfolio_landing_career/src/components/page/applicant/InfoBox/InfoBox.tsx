@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Divider, SubTitle } from "@_components/UI";
+import { Textarea } from "@_components/Action";
 
 import css from "./InfoBox.module.scss";
-import { Textarea } from "@_components/Action";
 
 interface Props {
   data: { title: string; list: any[] };

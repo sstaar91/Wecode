@@ -26,3 +26,69 @@
   border: 1px solid $light_gray_2;
   color: $lilac;
 }
+
+.status {
+  padding: 6px 8px;
+  background-color: $white;
+  color: $black;
+}
+
+.good {
+  &:hover {
+    color: $white;
+    background-color: $light_positive;
+  }
+}
+
+.normal {
+  &:hover {
+    color: $white;
+    background-color: $gray_2;
+  }
+}
+
+.bad {
+  &:hover {
+    color: $white;
+    background-color: $light_nagative;
+  }
+}
+
+.activeGood {
+  color: $white;
+  background-color: $positive;
+
+  &::after {
+    content: "👍";
+  }
+}
+
+.activeNormal {
+  color: $white;
+  background-color: $gray_3;
+
+  &::after {
+    content: "🙄";
+  }
+}
+
+.activeBad {
+  color: $white;
+  background-color: $nagative;
+
+  &::after {
+    content: "👎";
+  }
+}
+
+.send {
+  padding: 4px 12px;
+  width: fit-content;
+  background-color: $white;
+  color: $black;
+
+  &:hover {
+    color: $white;
+    background-color: $main;
+  }
+}

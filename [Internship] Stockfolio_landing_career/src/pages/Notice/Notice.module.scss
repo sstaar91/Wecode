@@ -42,7 +42,7 @@
   border-radius: 8px;
   overflow: scroll;
 
-  &::-webkit-scrollbar {
+  &::kit-scrollbar {
     display: none;
   }
 }

@@ -3,15 +3,22 @@
 @import "@_styles/color.scss";
 
 .container {
+  position: relative;
   display: grid;
   grid-template-columns: 2.5fr 1fr;
-  gap: 20px;
+  gap: 30px;
 }
 
 .applycantInfoBox {
   display: flex;
   flex-direction: column;
+  height: 80vh;
   gap: 32px;
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 .name {
@@ -41,4 +48,11 @@
     color: $gray_2;
     cursor: default;
   }
+}
+
+.commentWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 40px;
 }

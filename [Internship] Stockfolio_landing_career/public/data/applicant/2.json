@@ -42,6 +42,10 @@
     "grades": "0",
     "status": "졸업",
     "enter": "2015-03-02",
-    "grauation": "2019-02-14"
+    "grauation": "2019-02-14",
+    "comment": [
+      { "id": 1, "assess": "bad", "createAt": "2024-04-22", "userName": "이별호", "description": "진짜 별로인듯" },
+      { "id": 2, "assess": "good", "createAt": "2024-04-22", "userName": "김채곤", "description": "상당하신데요?" }
+    ]
   }
 }

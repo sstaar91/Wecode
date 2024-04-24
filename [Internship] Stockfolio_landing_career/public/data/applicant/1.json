@@ -34,6 +34,11 @@
     "grades": "3.8 / 4.5",
     "status": "졸업",
     "enter": "2010-03-11",
-    "grauation": "2018-02-11"
+    "grauation": "2018-02-11",
+    "comment": [
+      { "id": 1, "assess": "bad", "createAt": "2024-04-22", "userName": "이별호", "description": "진짜 별로인듯" },
+      { "id": 2, "assess": "good", "createAt": "2024-04-22", "userName": "김채곤", "description": "상당하신데요?" },
+      { "id": 3, "assess": "normal", "createAt": "2024-04-22", "userName": "박근양", "description": "내가 면접 안들가서 몰겠음" }
+    ]
   }
 }

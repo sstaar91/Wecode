@@ -25,6 +25,10 @@
     "grades": "4.2 / 4.2",
     "status": "졸업",
     "enter": "2010-03-02",
-    "grauation": "2021-02-14"
+    "grauation": "2021-02-14",
+    "comment": [
+      { "id": 1, "assess": "bad", "createAt": "2024-04-22", "userName": "이별호", "description": "진짜 별로인듯" },
+      { "id": 2, "assess": "bad", "createAt": "2024-04-22", "userName": "김채학", "description": "뭐야 이 사람" }
+    ]
   }
 }

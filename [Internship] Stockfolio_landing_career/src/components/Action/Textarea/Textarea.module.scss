@@ -5,10 +5,15 @@
   @include typo(m);
   padding: 12px;
   width: 100%;
+  height: auto;
   border: 1px solid $light_gray_2;
   border-radius: 8px;
-  background-color: $white;
+  background-color: inherit;
   resize: none;
   color: $black;
   font-family: "Noto Sans KR", sans-serif;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }

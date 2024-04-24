@@ -3,15 +3,17 @@ import css from "./Button.module.scss";
 
 interface Props {
   children: ReactNode;
+  name?: string;
   type?: string;
   addStyle?: string;
+  clicked?: string;
   disabled?: boolean;
   onClickButton: () => void;
 }
 
-const Button = ({ children, type = "", addStyle = "", disabled = false, onClickButton }: Props) => {
+const Button = ({ children, type = "", name = "", addStyle = "", clicked = "", disabled = false, onClickButton }: Props) => {
   return (
-    <button className={`${css.default} ${css[type]} ${css[addStyle]}`} disabled={disabled} onClick={onClickButton}>
+    <button name={name} className={`${css.default} ${css[type]} ${css[addStyle]} ${css[clicked]}`} disabled={disabled} onClick={onClickButton}>
       {children}
     </button>
   );

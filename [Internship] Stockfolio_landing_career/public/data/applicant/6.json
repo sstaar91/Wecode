@@ -16,6 +16,7 @@
     "grades": "0",
     "status": "졸업",
     "enter": "2009-03-02",
-    "grauation": "2012-02-21"
+    "grauation": "2012-02-21",
+    "comment": [{ "id": 1, "assess": "good", "createAt": "2024-04-22", "userName": "이별호", "description": "진짜 별로인듯" }]
   }
 }

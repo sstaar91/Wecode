@@ -3,9 +3,9 @@ import useGetData from "@_hooks/useGetData";
 
 import { Label } from "@_components/UI";
 import PageLayout from "@_components/Layout/PageLayout";
-import InfoBox from "@_components/page/applicant/InfoBox";
+import { CommentCard, InfoBox } from "@_components/page/applicant";
 
-import { ApplyCareerType, ApplyProejctType } from "@_types/apply";
+import { ApplyCareerType, ApplyProejctType, CommentType } from "@_types/apply";
 import css from "./Applicant.module.scss";
 
 const Applicant = () => {
@@ -98,7 +98,12 @@ const Applicant = () => {
           <InfoBox data={selfIntroInfo} />
           <InfoBox data={eduInfo} />
         </article>
-        <article>456</article>
+        <article className={css.commentWrap}>
+          <CommentCard type="write" />
+          {data.comment.map((comment: CommentType) => {
+            return <CommentCard key={comment.id} type="read" {...comment} />;
+          })}
+        </article>
       </section>
     </PageLayout>
   );

@@ -26,3 +26,11 @@ export interface ApplyProejctType {
   stack: string;
   description: string;
 }
+
+export interface CommentType {
+  id: number;
+  assess: string;
+  createAt: string;
+  userName: string;
+  description: string;
+}

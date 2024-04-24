@@ -1,0 +1,76 @@
+@import "@_styles/mixin.scss";
+@import "@_styles/typo.scss";
+@import "@_styles/color.scss";
+
+.commentCard {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 4px 4px 16px 0px $black;
+}
+
+.bad {
+  background-color: $nagative_bg;
+}
+
+.normal {
+  background-color: $light_gray_1;
+}
+
+.good {
+  background-color: $positive_bg;
+}
+
+.cardHeader {
+  @include customFlex(space-between);
+
+  .bad {
+    @include typo(m, bold);
+    color: $nagative;
+  }
+
+  .normal {
+    @include typo(m, bold);
+    color: $gray_3;
+  }
+
+  .good {
+    @include typo(m, bold);
+    color: $positive;
+  }
+}
+
+.realTime {
+  @include typo(xs);
+  color: $gray_2;
+}
+
+.defaultInfoBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+
+  .author {
+    @include typo(s, bold);
+  }
+}
+
+.statusBox {
+  display: flex;
+  gap: 8px;
+}
+
+.cardBottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.commentLength {
+  @include typo(xs);
+  color: $gray_2;
+}
