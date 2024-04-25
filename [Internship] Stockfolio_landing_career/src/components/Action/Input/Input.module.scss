@@ -8,7 +8,7 @@
 }
 
 .title {
-  @include typo(s);
+  @include typo(s, bold);
 }
 
 .gray {
@@ -17,6 +17,7 @@
 
 .default {
   padding: 16px 12px;
+  width: 100%;
   border-radius: 8px;
   border: none;
   background-color: $light_gray_1;

@@ -1,0 +1,47 @@
+@import "@_styles/color.scss";
+@import "@_styles/typo.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin: 80px auto 0;
+  max-width: 800px;
+}
+
+.userInputForm {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1.1fr;
+  align-items: end;
+  gap: 8px;
+}
+
+.listBox {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.userList {
+  @include typo(m, bold);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 0.7fr;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: default;
+
+  &:first-child {
+    &:hover {
+      background-color: white;
+    }
+  }
+
+  &:hover {
+    background-color: $light_gray_1;
+  }
+}
+
+.listTitle {
+  @include typo(s, bold);
+  color: $gray_2;
+}

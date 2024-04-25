@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "김명성",
+      "email": "aaa@gmail.com",
+      "password": "Xassdf123"
+    },
+    {
+      "id": 2,
+      "name": "이별호",
+      "email": "aaa@gmail.com",
+      "password": "Xassdf123"
+    },
+    {
+      "id": 3,
+      "name": "김채학",
+      "email": "aaa@gmail.com",
+      "password": "Xassdf123"
+    },
+    {
+      "id": 4,
+      "name": "김채곤",
+      "email": "aaa@gmail.com",
+      "password": "Xassdf123"
+    },
+    {
+      "id": 5,
+      "name": "박근양",
+      "email": "aaa@gmail.com",
+      "password": "Xassdf123"
+    }
+  ]
+}

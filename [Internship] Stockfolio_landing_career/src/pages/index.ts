@@ -1,3 +1,4 @@
+export { default as Admin } from "./Admin";
 export { default as Applicant } from "./Applicant";
 export { default as List } from "./List";
 export { default as Login } from "./Login";
