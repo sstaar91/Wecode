@@ -16,6 +16,8 @@
 }
 
 .default {
+  @include typo(m);
+  font-family: "Noto Sans KR", sans-serif;
   padding: 16px 12px;
   width: 100%;
   border-radius: 8px;

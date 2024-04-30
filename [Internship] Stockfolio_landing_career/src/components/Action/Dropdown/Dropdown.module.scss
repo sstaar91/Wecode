@@ -1,0 +1,44 @@
+@import "@_styles/color.scss";
+@import "@_styles/typo.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title {
+  @include typo(s, bold);
+}
+
+.dropdownBox {
+  @include typo(m);
+  position: relative;
+  padding: 16px 12px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: $light_gray_1;
+}
+
+.selectBox {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  border: 1px solid $light_gray_2;
+  border-radius: 8px;
+  background-color: $white;
+}
+
+.selectList {
+  padding: 16px 12px;
+  border-top: 1px solid $light_gray_2;
+
+  &:first-child {
+    border-top: none;
+  }
+
+  &:hover {
+    background-color: $light_gray_1;
+  }
+}

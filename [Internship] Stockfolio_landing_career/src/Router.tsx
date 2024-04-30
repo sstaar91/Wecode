@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Nav from "@_components/Nav";
-import { Admin, Applicant, List, Login, Main, Notice } from "./pages";
+import { Admin, Applicant, List, Login, Main, Manage, Notice } from "./pages";
 import { Toast } from "@_components/UI";
 
 const Router = () => {
@@ -14,6 +14,7 @@ const Router = () => {
         <Route path="/notice/list" element={<List />} />
         <Route path="/notice/list/:id" element={<List />} />
         <Route path="/notice/apply/:id" element={<Applicant />} />
+        <Route path="/manage" element={<Manage />} />
         <Route path="/admin" element={<Admin />} />
       </Routes>
       <Toast />

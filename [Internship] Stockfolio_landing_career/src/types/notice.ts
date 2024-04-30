@@ -8,3 +8,9 @@ export interface NoticeListType {
   deadLine: string;
   count: number;
 }
+
+export interface CategoryType {
+  id: number;
+  title: string;
+  value: string;
+}
