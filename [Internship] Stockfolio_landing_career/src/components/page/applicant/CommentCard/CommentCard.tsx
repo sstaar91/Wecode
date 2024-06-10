@@ -90,6 +90,6 @@ export default CommentCard;
 
 const BUTTON_STATUS_LIST = [
   { id: 1, name: "good", style: "activeGood", title: "좋아요" },
-  { id: 2, name: "normal", style: "activeNormal", title: "별로에요" },
-  { id: 3, name: "bad", style: "activeBad", title: "싫어요" },
+  { id: 2, name: "normal", style: "activeNormal", title: "그냥 그래요" },
+  { id: 3, name: "bad", style: "activeBad", title: "별로에요" },
 ];

@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 
 import { Logo } from "@_components/UI";
@@ -6,6 +7,12 @@ import css from "./Nav.module.scss";
 const Nav = () => {
   const { pathname } = useLocation();
   const navigate = useNavigate();
+
+  useEffect(() => {
+    if (!localStorage.getItem("user")) {
+      navigate("/");
+    }
+  }, [pathname]);
 
   if (pathname === "/") return <></>;
 
@@ -32,8 +39,16 @@ const Nav = () => {
           })}
         </ul>
         <ul className={css.navList}>
-          <li>유저이름</li>
-          <li>로그아웃</li>
+          <li className={css.user}>USER001</li>
+          <li
+            className={css.logout}
+            onClick={() => {
+              navigate("/");
+              localStorage.removeItem("user");
+            }}
+          >
+            로그아웃
+          </li>
         </ul>
       </div>
     </nav>
