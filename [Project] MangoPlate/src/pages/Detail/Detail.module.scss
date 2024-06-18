@@ -2,8 +2,9 @@
 
 .infoContainer {
   @include flexSelect(space-between, flex-start);
-  margin-top: 70px;
+  margin: 70px auto 0;
   padding: 70px;
+  max-width: 1280px;
 }
 
 .shopImg {
